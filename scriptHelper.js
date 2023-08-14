@@ -45,7 +45,7 @@ alert('Make sure to enter valid information for each field!')
 list.style.visibility = 'visible';
    }  */
          
-   else if(isNaN(validateInput(fuelLevel)) === 'true' || isNaN(validateInput(cargoLevel)) === 'true'){
+   else if(isNaN(validateInput(fuelLevel)) || isNaN(validateInput(cargoLevel))){
     alert('Make sure to enter valid information for each field!')
     list.style.visibility = 'visible';
        } 
